@@ -1,13 +1,13 @@
 //Class decides exactly what type to use
 //“Order forces a Paytm"
-class Payment{
+class PaytmPayment{
     public void m2(){
         System.out.println("Payment is successfully");
     }
 }
 class Order{
     public void m1(){
-        Payment paytm=new Payment();//hard coding
+        PaytmPayment paytm=new PaytmPayment();//hard coding
         paytm.m2();
         System.out.println("Order is placed successfully");
     }
