@@ -1,3 +1,4 @@
+//creation of object during class loading
 class Test{
     private static Test instance=new Test();
     private Test(){
