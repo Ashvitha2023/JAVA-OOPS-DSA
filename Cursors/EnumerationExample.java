@@ -13,7 +13,8 @@ public class EnumerationExample {
         v.add(6);
         Enumeration <Integer> e=v.elements();
         while(e.hasMoreElements()){
-            System.out.println(e.nextElement());
+            Integer num=(Integer)e.nextElement(); //return type will be Object
+            System.out.println(num);
         }
     }
 }
